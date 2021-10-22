@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient_drawable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="134sp"
+        android:layout_height="59sp"
+        android:layout_above="@+id/button_login"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="casual"
+        android:text="@string/bceptitle"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <Button
+        android:id="@+id/bmicalcpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate BMI"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="215dp"
+        android:layout_centerInParent="true" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="356dp"
+        android:layout_height="207dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/icon_dumbell" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="MOTIVAVIONAL MUSIC:" />
+
+    <Button
+        android:id="@+id/playbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="520dp"
+        android:text="Play"
+        android:onClick="play"/>
+
+    <Button
+        android:id="@+id/pausebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:onClick="pause"
+        android:text="Pause" />
+
+    <Button
+        android:id="@+id/stopbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="300dp"
+        android:onClick="stop"
+        android:text="Stop"/>
+
+
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

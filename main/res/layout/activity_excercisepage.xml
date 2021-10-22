@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient_drawable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Excercisepage">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you want to gain muscle or lose weight."
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <Button
+        android:id="@+id/Muscle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gain Muscle"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp" />
+
+    <Button
+        android:id="@+id/loseweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lose Weight"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="250dp" />
+
+    <Button
+        android:id="@+id/homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="Home Page" />
+
+    <TextView
+        android:id="@+id/workout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="20dp"/>
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

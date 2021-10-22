@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BC&amp;EP</string>
+    <string name="bceptitle"><![CDATA[BC&EP]]></string>
+
+    <string-array name="genders">
+        <item> Please select Gender</item>
+        <item> Male </item>
+        <item> Female </item>
+    </string-array>
+    <string name="title_activity_muscleworkout">Muscleworkout</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

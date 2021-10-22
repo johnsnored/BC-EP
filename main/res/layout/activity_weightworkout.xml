@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient_drawable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Weightworkout">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stretch
+        10 mins on-the-spot jogging.
+        2 mins jumping jacks followed by 2 mins deep squats(X5).
+        10 mins slow jog with running jacks
+        Cool Down
+        Repeat for 90 days.
+        "
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/homepage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:text="homepage"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="MOTIVATIONAL MUSIC:" />
+
+    <Button
+        android:id="@+id/playbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="520dp"
+        android:text="Play"
+        android:onClick="play"/>
+
+    <Button
+        android:id="@+id/pausebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:onClick="pause"
+        android:text="Pause" />
+
+    <Button
+        android:id="@+id/stopbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="300dp"
+        android:onClick="stop"
+        android:text="Stop"/>
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

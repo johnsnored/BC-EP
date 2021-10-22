@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_drawable"
+    tools:context=".Alarmpage">
+
+    <EditText
+        android:id="@+id/hourinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Hour"
+        android:textSize="30dp"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/minuteinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:hint="Minute"
+        android:textSize="30dp"
+        android:layout_marginTop="150dp"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="ENTER TIME FOR ALARM:" />
+
+    <Button
+        android:id="@+id/setalarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="300dp"
+        android:text="SET ALARM" />
+
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>
